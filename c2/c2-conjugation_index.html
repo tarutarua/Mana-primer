@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>c2活用</title>
+    </head>
+
+    <body>
+        <h1>c2応用ページ</h1>
+        <p>トライアンドエラーです</p>
+
+        <h2>合成音声ソフトってやっぱりいいなって話</h2>
+        <p>最近は動画を見ることが少なくなったけど、久しぶりにキャラが生きている動画を見ててぇてぇを感じてました</p>
+        <p>ちなみに見てたのは妙楽さんの<a href="https://youtu.be/euu-ScH8dZ0">『太 宰 府 天 満 宮 令 和 の 大 改 修【ソフトウェアトーク劇場】』</a>です。妙楽さんはいいぞ</p>
+        <p>創作や企業利用など、たくさんの可能性を秘めていると感じました</p>
+        <p>推しです。かわいいですね</p>
+        <img src="meika.jpg" alt="(かわいいヒメミコの絵が表示されているはずです)">
+
+        <h2>フォームの練習です</h2>
+        <form action="example.php" method="post" name="contact-form">
+            <p>
+                性別:
+                <input type="radio" name="gender" value="男性"> 男性
+                <input type="radio" name="gender" value="女性"> 女性
+                <input type="radio" name="gender" value="その他"> その他
+            </p>
+
+            <p>
+                年代:
+                <select name="age">
+                    <option value="---">---</option>
+                    <option value="10代">10代</option>
+                    <option value="20代">20代</option>
+                    <option value="30代">30代</option>
+                    <option value="40代">40代</option>
+                    <option value="50代以上">50代以上</option>
+                </select>
+            </p>
+
+            ご意見
+            <p>
+                <textarea name="message" placeholder="メッセージを入力"></textarea>
+            </p>
+
+            <input type="submit" value="送信">
+        </form>
+    </body>
+</html>
